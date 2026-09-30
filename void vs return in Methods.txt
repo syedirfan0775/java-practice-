@@ -1,0 +1,33 @@
+void ------->(it never go to call because void is only display value or direct print)
+
+public class Main {
+
+    static void add(int a, int b) {
+        System.out.println(a + b);
+    }
+
+    public static void main(String[] args) {
+
+        add(10, 20);
+
+    }
+}
+
+
+
+return ----->(it go to call)
+
+public class Main {
+
+    static int add(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+
+        int result = add(10, 20);
+
+        System.out.println(result);
+
+    }
+}
